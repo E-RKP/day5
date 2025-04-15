@@ -15,13 +15,20 @@
 //  console.log(`I am ${yourAge-myAge} younger than you`)
 //}
 
-let a = 1
-let b = 1
+//let a = 1
+//let b = 1
 // a > b ? console.log('a is greater than b') : console.log('a is greater than b')
-if (a >b) {
-  console.log('a is greater than b')
-}else if (b > a){
-  console.log('a is greater than b')
+//if (a >b) {
+// console.log('a is greater than b')
+//}else if (b > a){
+//  console.log('a is greater than b')
+//}else{
+// console.log('i numeri sono uguali')
+//}
+
+let pari = 20
+if (pari % 2 == 0){
+  console.log('il numero è pari')
 }else{
-  console.log('i numeri sono uguali')
+  console.log('il numero è dispari')
 }
